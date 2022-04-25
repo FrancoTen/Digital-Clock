@@ -1,0 +1,35 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #03060c;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: #f5f6ff;
+    font-size: 10vh;
+    font-weight: 1000;
+    flex-direction: flex-start;
+}
+.clock span{
+    font-size: 20vh;
+    font-weight: 800;
+    color: #f5f6ff;
+}
+label{
+    color: #f5f6ff;
+    font-weight: 800;
+}
+#change-12{
+    margin-top: 20px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="digital-clock.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/745ec8c823.js" crossorigin="anonymous"></script>
+    <title>Digital Clock</title>
+</head>
+<body>
+    <main>
+        <h1>Digital Clock</h1>
+        <div class="clock">
+            <span id="hours"></span>
+            <span>:</span>
+            <span id="minutes"></span>
+            <span>:</span>
+            <span id="seconds"></span>
+            <span id="am-pm"></span>
+        </div>
+        <div class="check-div">
+            <label for="change-12" class="label">
+            <input type="checkbox" name="change-12" id="change-12" class= "checkbox" value="change"> Formato 12hs
+            </label> 
+        </div>
+    </main>
+    <script src="digital-clock.js"></script>
+</body>
+</html>
